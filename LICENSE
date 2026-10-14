@@ -1,0 +1,9 @@
+CHOST Panel
+Copyright (c) 2026 CHOST. All rights reserved.
+
+The CHOST files in this repository (setup scripts, subscription page, dashboard add-on,
+design and documentation) are proprietary. Copying, reselling or redistributing them
+without written permission from CHOST is not allowed.
+
+This project runs on top of PasarGuard and Xray. Those projects keep their own licenses,
+which you can find in their official repositories.

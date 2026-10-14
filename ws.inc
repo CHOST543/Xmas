@@ -1,0 +1,13 @@
+proxy_http_version 1.1;
+proxy_set_header Upgrade $http_upgrade;
+proxy_set_header Connection "upgrade";
+proxy_set_header Host $host;
+proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+proxy_buffering off;
+proxy_buffer_size 64k;
+proxy_request_buffering off;
+proxy_connect_timeout 5s;
+gzip off;
+proxy_read_timeout 1h; proxy_send_timeout 1h;
+proxy_socket_keepalive on;
+tcp_nodelay on;
